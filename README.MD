@@ -1,5 +1,7 @@
 # 自定义Vue开发环境
+
 ## 1. 搭建基本开发环境
+
 1). 下载依赖包
         yarn add -D webpack webpack-cli
         yarn add -D html-webpack-plugin
@@ -7,7 +9,6 @@
         yarn add -D babel-loader @babel/core @babel/preset-env
         yarn add -D css-loader style-loader
         yarn add -D url-loader@2.3.0 file-loader@4.3.0
-    
     2). webpack的基本配置: webpack.config.js
         module.exports = {
           mode: 'production|development'
@@ -42,6 +43,7 @@
             2). 启动服务器, 运行内存中的打包文件(不生成本地打包文件)   ===> 可以通过浏览器虚拟路径访问
 
 ## 2. 搭建Vue的开发环境
+
     1). 配置处理.Vue组件文件的loader和plugin
     2). 配置使用vue-style-loader替换style-loader
     3). 解决无法编译vue模板的错误
@@ -49,4 +51,4 @@
         解决: 配置模块别名来指定引入vue带编译器的版本
     4). 配置省略模块后缀名(.js/.vue/.json)
 
-# vue组件化开发
+## vue组件化开发
