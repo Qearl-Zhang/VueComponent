@@ -2,7 +2,7 @@
 
 ## 1. 搭建基本开发环境
 
-1). 下载依赖包
+    1). 下载依赖包
         yarn add -D webpack webpack-cli
         yarn add -D html-webpack-plugin
         yarn add -D webpack-dev-server
